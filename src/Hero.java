@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
+abstract class Hero extends Character {
+    String weapon;
+    Hero (String name ,int hp , String weapon){
 
-public class Hero {
+    }
+
 }

@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public class Creature {
+public interface Creature {
+    abstract void attack(Character target);
 }
