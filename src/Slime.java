@@ -5,7 +5,7 @@ public final class Slime extends Character {
         this.hp = hp;
     }
         public void attack(Character target) {
-            System.out.println(name + "は体当たり攻撃！" + target.name + "に５のダメージを与えた！");
+            System.out.println(name + "は体当たり攻撃！" + target.name + "に5のダメージを与えた！");
             target.hp -= 5;
         }
     }
