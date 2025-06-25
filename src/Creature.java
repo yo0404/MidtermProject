@@ -1,3 +1,3 @@
 public interface Creature {
-    abstract void attack(Character target);
+   public  abstract void attack(Character target);
 }
