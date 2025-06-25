@@ -17,7 +17,6 @@ public class GameMaster {
         abel.attack(s);
         abel.attack(s);
         System.out.println("--- 戦闘終了 ---");
-
         abel.showStatus();
         s.showStatus();
         System.out.print(abel.isAlive());
